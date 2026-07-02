@@ -4,6 +4,7 @@ import { ScrollSmoother, ScrollTrigger } from "gsap/all";
 import Navbar from "./components/Navbar";
 import HeroSection from "./sections/HeroSection";
 import MessageSection from "./sections/MessageSection";
+import FlavorSection from "./sections/FlavorSection";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 const App = () => {
   useGSAP(() => {
@@ -19,6 +20,7 @@ const App = () => {
         <div id="smooth-content">
           <HeroSection />
           <MessageSection />
+          <FlavorSection />
         </div>
       </div>
     </main>
